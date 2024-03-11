@@ -1,0 +1,33 @@
+.GRAD8{
+    width: 300px;
+    height: 350px;
+    margin-left: 200px;
+    background: radial-gradient(at top, rgb(238, 133, 14), rgb(224, 168, 14));
+    box-shadow: 2px 2px 5px rgb(85, 81, 81), 3px 3px 10px rgb(85, 81, 81);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+h1{
+    margin-left: 0.9%;
+    margin-bottom: 230px;
+    font-size: 25px;
+    color: azure;
+    text-shadow: 2px 2px 1px black;
+    position: absolute;
+    animation: tex 3s ease-in-out infinite;
+}
+
+@keyframes tex {
+    0% {
+        transform: translateY(10);
+    }
+    50% {
+        transform: translateY(2vh);
+    }
+    100% {
+        transform: translateY(10);
+    }
+}
